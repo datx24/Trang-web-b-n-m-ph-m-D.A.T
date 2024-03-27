@@ -79,6 +79,16 @@ footer{
 }
 
 
+.carousel-item .col {
+    padding: 0 5px; /* Điều chỉnh padding của cột */
+}
+
+.carousel-item.active .col:first-child,
+.carousel-item.active .col:last-child {
+    padding: 0 5px; /* Điều chỉnh padding của cột đầu và cột cuối khi active */
+}
+
+
 .form1{
     position: relative;
     width: 455px;
@@ -164,6 +174,7 @@ footer{
     right:10px;
     font-size:12px;
     font-weight: 700;
+    color: #000;
 }
 
 .shipping{
@@ -876,6 +887,35 @@ img {
     color:white;
 }
 
+.css-ng61g61 {
+    padding: 24px;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: normal;
+    display: flex;
+    color:white;
+    background-color: rgb(247, 167, 144);
+}
+
+.css-ng61g62 {
+    padding: 24px;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: normal;
+    display: flex;
+    color:white;
+    background-color: rgb(7, 123, 170);
+}
+
+.css-ng61g63 {
+    padding: 24px;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: normal;
+    display: flex;
+    color:white;
+    background-color: rgb(210, 228, 245);
+}
 .css-1gjpuh8 h3 span{
     display: contents;
     font-weight: 700;
@@ -917,6 +957,9 @@ img {
     inset: 0px;
     display: flex;
 }
+
+
+
 
 .css-ur3tpd {
     flex: 1 1 0%;
@@ -967,6 +1010,10 @@ img {
     flex-shrink: 0;
     display: flex;
     width: 198px;
+}
+
+.css-1jz9muy a:hover{
+    transform: translateY(-5px);
 }
 
 .css-10hh9er {
@@ -1286,6 +1333,7 @@ a:hover {
 }
 
 .css-ciwtak {
+    border:none;
     align-items: center;
     justify-content: space-between;
     width: 100%;
