@@ -10,8 +10,10 @@ border-bottom: black;
   }
   /* Style container */
   .container {
+    border-radius: 10px;
+    border: 1px solid black;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 36px auto;
     padding: 20px;
   }
   .pBold{
